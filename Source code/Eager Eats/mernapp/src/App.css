@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+  
+}
+body{
+  background-color: black;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.custom-navbar {
+  background-color: green;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 95px;
+  border-radius: 10px;
+}
+
+.navbar-logo {
+  width: 102px;
+  height: auto;
+}
+
+.custom-nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.custom-nav-link {
+  color: #343a40 !important; /* Ensure text color is visible */
+  margin-right: 15px;
+  font-weight: 500;
+  padding: 10px 20px; /* Make the links occupy the same height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Ensure the link takes full height */
+}
+
+.custom-nav-link:hover {
+  color: #28a745 !important; /* Change to a more visible color on hover */
+  text-decoration: underline;
+}
+
+.custom-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.custom-button {
+  color: #343a40 !important;
+  width:100px;
+  background-color: rgb(68, 255, 0);
+  text-decoration: none;
+  font-weight: 500;
+  padding: 10px 20px; /* Make the buttons occupy the same height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px; /* Ensure the button takes full height */
+  margin-left: 10px;
+}
+
+.custom-button:hover {
+  background-color: #28a745;
+  color: white !important;
+  border: none;
+}
+
+.custom-button:focus {
+  box-shadow: none;
+}
